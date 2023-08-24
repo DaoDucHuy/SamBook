@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "19378121774",
+    "firebase_url": "https://sambook-9505f.firebaseio.com",
+    "project_id": "sambook-9505f",
+    "storage_bucket": "sambook-9505f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19378121774:android:a8b633343919ca383183bf",
+        "android_client_info": {
+          "package_name": "com.sam.sambook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19378121774-95uoovvciiuv0r6edd62n9qa22l1j075.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sam.sambook",
+            "certificate_hash": "80941bb9b74995df6895ca54408185feb4ed9687"
+          }
+        },
+        {
+          "client_id": "19378121774-hub6vis3auhkg49r51mh8cvp0mgjmvgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ5nVgspHy38jvRizSy6GVVkXigMQXxjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19378121774-hub6vis3auhkg49r51mh8cvp0mgjmvgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingsActivity">
+
+    <Button
+        android:id="@+id/settings_bookmark_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/bookmark_black_24"
+        android:drawablePadding="20dp"
+        android:drawableEnd="@drawable/chevron_right_black_24"
+        android:text="@string/bookmark_list"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="textStart"
+        style="Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+    <Button
+        android:id="@+id/settings_reading_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_bookmark_list"
+        android:drawableStart="@drawable/history_edu_black_24"
+        android:drawablePadding="20dp"
+        android:drawableEnd="@drawable/chevron_right_black_24"
+        android:text="@string/reading_history"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="textStart"
+        style="Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+    <Button
+        android:id="@+id/settings_waiting_update_books"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_reading_history"
+        android:drawableStart="@drawable/update_black_24"
+        android:drawablePadding="20dp"
+        android:drawableEnd="@drawable/chevron_right_black_24"
+        android:text="@string/waiting_update_books"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="textStart"
+        style="Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+    <Button
+        android:id="@+id/settings_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_waiting_update_books"
+        android:layout_marginTop="40dp"
+        android:drawableStart="@drawable/language_black_24"
+        android:drawablePadding="20dp"
+        android:drawableEnd="@drawable/chevron_right_black_24"
+        android:text="@string/language"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="textStart"
+        style="Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+    <Button
+        android:id="@+id/btn_settings_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_language"
+        android:layout_marginTop="60dp"
+        android:drawableStart="@drawable/exit_to_app_black_24"
+        android:drawablePadding="20dp"
+        android:text="@string/sign_out"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:textAlignment="textStart"
+        android:textColor="@color/red"
+        style="Widget.MaterialComponents.Button.TextButton.Icon"/>
+
+</RelativeLayout>

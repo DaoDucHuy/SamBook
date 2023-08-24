@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+
+    <!--        <RelativeLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/header_cover_image"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="200dp"-->
+    <!--                android:scaleType="centerCrop"-->
+    <!--                android:src="@drawable/background_profile" />-->
+
+    <!--            <ImageButton-->
+    <!--                android:id="@+id/user_profile_photo"-->
+    <!--                android:layout_width="120dp"-->
+    <!--                android:layout_height="120dp"-->
+    <!--                android:layout_below="@+id/header_cover_image"-->
+    <!--                android:layout_centerHorizontal="true"-->
+    <!--                android:layout_marginTop="-60dp"-->
+    <!--                android:background="@drawable/profile_circular_border_imageview"-->
+    <!--                android:elevation="5dp"-->
+    <!--                android:padding="20dp"-->
+    <!--                android:scaleType="centerCrop"-->
+    <!--                android:src="@drawable/baseline_person_pin_black_24dp" />-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:id="@+id/profile_layout"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_below="@+id/header_cover_image"-->
+    <!--                android:background="#ebca0707"-->
+    <!--                android:elevation="4dp"-->
+    <!--                android:paddingBottom="24dp">-->
+
+
+    <!--                &lt;!&ndash;            <ImageView&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:id="@+id/add_friend"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_width="30dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_height="30dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_marginLeft="16dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_marginTop="16dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_toLeftOf="@+id/drop_down_option_menu"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:src="@drawable/baseline_person_pin_black_24dp" />&ndash;&gt;-->
+
+    <!--                &lt;!&ndash;            <ImageView&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:id="@+id/drop_down_option_menu"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_width="30dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_height="30dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_alignParentRight="true"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_marginLeft="16dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:layout_marginTop="16dp"&ndash;&gt;-->
+    <!--                &lt;!&ndash;                android:src="@drawable/baseline_menu_black_24dp" />&ndash;&gt;-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/user_profile_name"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_centerHorizontal="true"-->
+    <!--                    android:layout_marginTop="76dp"-->
+    <!--                    android:text="Viral Android"-->
+    <!--                    android:textColor="#fff"-->
+    <!--                    android:textSize="24sp"-->
+    <!--                    android:textStyle="bold" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/user_profile_short_bio"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_below="@+id/user_profile_name"-->
+    <!--                    android:layout_centerHorizontal="true"-->
+    <!--                    android:layout_marginTop="12dp"-->
+    <!--                    android:text="Android free tutorials and example"-->
+    <!--                    android:textColor="#fff"-->
+    <!--                    android:textSize="14sp" />-->
+    <!--            </RelativeLayout>-->
+
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="fill_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_below="@+id/profile_layout"-->
+    <!--                android:layout_marginTop="5dp"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="fill_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="5dp"-->
+    <!--                    android:background="#fff"-->
+    <!--                    android:clickable="true"-->
+    <!--                    android:elevation="4dp"-->
+    <!--                    android:padding="20dp"-->
+    <!--                    android:text="Android Profile UI Design" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="fill_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="5dp"-->
+    <!--                    android:layout_marginTop="3dp"-->
+    <!--                    android:layout_marginBottom="3dp"-->
+    <!--                    android:background="#fff"-->
+    <!--                    android:clickable="true"-->
+    <!--                    android:elevation="4dp"-->
+    <!--                    android:padding="20dp"-->
+    <!--                    android:text="Android Profile XMl UI Design" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="fill_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="5dp"-->
+    <!--                    android:background="#fff"-->
+    <!--                    android:clickable="true"-->
+    <!--                    android:elevation="4dp"-->
+    <!--                    android:padding="20dp"-->
+    <!--                    android:text="Android Profile UI Design" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="fill_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="5dp"-->
+    <!--                    android:layout_marginTop="3dp"-->
+    <!--                    android:layout_marginBottom="3dp"-->
+    <!--                    android:background="#fff"-->
+    <!--                    android:clickable="true"-->
+    <!--                    android:elevation="4dp"-->
+    <!--                    android:padding="20dp"-->
+    <!--                    android:text="Android Profile XMl UI Design" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="fill_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_margin="5dp"-->
+    <!--                    android:background="#fff"-->
+    <!--                    android:clickable="true"-->
+    <!--                    android:elevation="4dp"-->
+    <!--                    android:padding="20dp"-->
+    <!--                    android:text="Android Profile UI Design" />-->
+    <!--            </LinearLayout>-->
+
+    <!--        </RelativeLayout>-->
+    <!--    </ScrollView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f5f2"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/bg_gradient_soft" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="30dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="133.9dp"
+                        android:layout_height="133.9dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/profileone_img" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="16dp"
+                        android:orientation="vertical">
+
+
+<!--                        <customfonts.MyTextView-->
+<!--                            android:id="@+id/tv_user_profile_username"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="end"-->
+<!--                            android:lineSpacingExtra="6.1sp"-->
+<!--                            android:text="@string/miki_ito"-->
+<!--                            android:textColor="#131314"-->
+<!--                            android:textSize="26.9sp" />-->
+
+                        <TextView
+                            android:id="@+id/tv_user_profile_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:lineSpacingExtra="6.1sp"
+                            android:text="@string/miki_ito"
+                            android:textColor="#131314"
+                            android:textSize="26.9sp"/>
+
+<!--                        <customfonts.MyTextView-->
+<!--                            android:id="@+id/tv_user_profile_name"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="end"-->
+<!--                            android:lineSpacingExtra="6.1sp"-->
+<!--                            android:text="@string/miki_ito"-->
+<!--                            android:textColor="#131314"-->
+<!--                            android:textSize="30sp" />-->
+
+                        <TextView
+                            android:id="@+id/tv_user_profile_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="end"
+                            android:lineSpacingExtra="6.1sp"
+                            android:text="@string/miki_ito"
+                            android:textColor="#131314"
+                            android:textSize="30sp"/>
+
+                        <!--                        <customfonts.TextView_Lato_Regular-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:gravity="end"-->
+                        <!--                            android:layout_gravity="end"-->
+                        <!--                            android:lineSpacingExtra="2.6sp"-->
+                        <!--                            android:text="@string/booker"-->
+                        <!--                            android:textColor="#9b9ca3"-->
+                        <!--                            android:textSize="13.4sp" />-->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="end"
+                            android:gravity="bottom">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp">
+
+                                <ImageButton
+                                    android:id="@+id/imgb_chat"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/btn_edit_user_profile_radius"
+                                    android:padding="10dp"
+                                    android:layout_marginRight="6dp"
+                                    android:src="@drawable/icon_mess_24"
+                                    tools:ignore="VectorDrawableCompat" />
+
+                                <ImageButton
+                                    android:id="@+id/fragment_profile_edit_profile"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:background="@drawable/btn_edit_user_profile_radius"
+                                    android:padding="8dp"
+                                    android:src="@drawable/baseline_edit_black_24dp" />
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@drawable/baseline_location_on_black_24dp" />
+
+                    <customfonts.TextView_Lato_Regular
+                        android:id="@+id/tv_user_profile_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2.6sp"
+                        android:text="@string/address"
+                        android:textColor="#363028"
+                        android:textSize="13.4sp" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginRight="27dp"
+                    android:background="#e5e7e8" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="27dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:id="@+id/line1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <customfonts.TextView_Lato_Regular
+                            android:id="@+id/tv_numb_book_user_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="2.6sp"
+                            android:text="0"
+                            android:textColor="#131314"
+                            android:textSize="15.4sp" />
+
+                        <customfonts.TextView_Lato_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="2.6sp"
+                            android:text="@string/profile_books"
+                            android:textColor="#9b9ca3"
+                            android:textSize="13.4sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/line2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <customfonts.TextView_Lato_Regular
+                            android:id="@+id/tv_numb_review_user_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="2.6sp"
+                            android:text="0"
+                            android:textColor="#131314"
+                            android:textSize="15.4sp" />
+
+                        <customfonts.TextView_Lato_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="2.6sp"
+                            android:text="@string/profile_reviews"
+                            android:textColor="#9b9ca3"
+                            android:textSize="13.4sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/line3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="30dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <customfonts.TextView_Lato_Regular
+                            android:id="@+id/tv_numb_request_user_profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:lineSpacingExtra="2.6sp"
+                            android:text="0"
+                            android:textColor="#131314"
+                            android:textSize="15.4sp" />
+
+                        <customfonts.TextView_Lato_Regular
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:lineSpacingExtra="2.6sp"
+                            android:text="@string/profile_requests"
+                            android:textColor="#9b9ca3"
+                            android:textSize="13.4sp" />
+
+                    </LinearLayout>
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tab_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="6dp"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginRight="27dp"
+                    android:background="#e5e7e8" />
+
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp" />
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="bottom">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/material_design_android_floating_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="20dp"
+            fab:menu_animationDelayPerItem="55"
+            fab:menu_backgroundColor="@android:color/transparent"
+            fab:menu_buttonSpacing="0dp"
+            fab:menu_colorNormal="#da3c2f"
+            fab:menu_colorPressed="#dc4b3f"
+            fab:menu_colorRipple="#99d4d4d4"
+            fab:menu_fab_label=""
+            fab:menu_fab_size="normal"
+            fab:menu_icon="@drawable/fab_add"
+            fab:menu_labels_colorNormal="#333"
+            fab:menu_labels_colorPressed="#444"
+            fab:menu_labels_colorRipple="#66efecec"
+            fab:menu_labels_cornerRadius="3dp"
+            fab:menu_labels_ellipsize="none"
+            fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            fab:menu_labels_margin="0dp"
+            fab:menu_labels_maxLines="-1"
+            fab:menu_labels_padding="8dp"
+            fab:menu_labels_position="left"
+            fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+            fab:menu_labels_showShadow="true"
+            fab:menu_labels_singleLine="false"
+            fab:menu_labels_textColor="#f2f1f1"
+            fab:menu_labels_textSize="15sp"
+            fab:menu_openDirection="up"
+            fab:menu_shadowColor="#99d4d4d4"
+            fab:menu_shadowRadius="4dp"
+            fab:menu_shadowXOffset="1dp"
+            fab:menu_shadowYOffset="4dp"
+            fab:menu_showShadow="true">
+
+            <!--            <com.github.clans.fab.FloatingActionButton-->
+            <!--                android:id="@+id/material_design_floating_action_menu_item1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                fab:fab_label="Menu Item 1"-->
+            <!--                fab:fab_size="mini" />-->
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/material_design_floating_action_menu_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_label="Chat"
+                fab:fab_size="mini"
+                android:visibility="gone"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/material_design_floating_action_menu_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_label="@string/profile_logout"
+                fab:fab_size="mini" />
+        </com.github.clans.fab.FloatingActionMenu>
+    </LinearLayout>
+
+</RelativeLayout>

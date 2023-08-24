@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A2F3C</color>
+    <color name="colorPrimaryDark">#0D1013</color>
+    <color name="colorAccent">#2A2F3C</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="icon_tintclr">#a9885d</color>
+    <color name="title_color">#5D686B</color>
+
+    <color name="regular_text_color">#000000</color>
+
+    <!--Material Color Theme-->
+    <!--Need to change later-->
+    <color name="primaryColor">#2a2f3c</color>
+    <color name="primaryLightColor">#535866</color>
+    <color name="primaryDarkColor">#000516</color>
+    <color name="primaryTextColor">#ffffff</color>
+
+    <!--RatingBar Color-->
+    <color name="ratingBar">#ffe54c</color>
+    <color name="ratingBarDark">#ffb300</color>
+    <color name="ratingBarLight">#ffff7f</color>
+
+    <color name="colorBlue2">#64b5f6</color>
+    <color name="colorBlue">#28A2CF</color>
+    <color name="colorBlueT">#6428a2cf</color>
+    <color name="colorPurple">#A130FF</color>
+    <color name="colorPurpleT">#64a130ff</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="linkColor">#0645AD</color>
+    <color name="red">#f44336</color>
+</resources>

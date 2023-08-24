@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_book_more"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:background="@drawable/book_sample"-->
+<!--            android:scaleType="centerCrop"/>-->
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/img_book_more"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/book_loading"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_more_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuoi tre dang gia bao nhieu"
+                android:textColor="@color/title_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_tacgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Tac Gia"
+                android:textColor="#5D686B"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic8_reading_24" />
+
+                <TextView
+                    android:id="@+id/tv_numb_reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="116"
+                    android:textColor="#59000000" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/ic8_borrow_book_24" />
+
+                <TextView
+                    android:id="@+id/tv_numb_borrower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="16"
+                    android:textColor="#59000000" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/ic8_rating_30" />
+
+                <TextView
+                    android:id="@+id/tv_numb_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="5.0"
+                    android:textColor="#59000000" />
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btn_add_read_book"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:background="@drawable/btn_radius_add_as_readed"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:text="Add as readed"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:textColor="#ffffff"-->
+<!--                    android:drawableLeft="@drawable/baseline_post_add_white_24dp"/>-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btn_borrow_book"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:background="@drawable/btn_readius_borrow_book"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:text="Mượn sách"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:textColor="#ffffff"-->
+<!--                    android:drawableLeft="@drawable/ic_book_borrow"/>-->
+
+<!--            </LinearLayout>-->
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f5f2"
+    android:orientation="vertical"
+    tools:context=".activity.ProfileDemoActivity">
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <com.google.android.material.tabs.TabLayout-->
+<!--            android:id="@+id/tab_layout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="?attr/colorPrimary"-->
+<!--            android:elevation="6dp"-->
+<!--            android:minHeight="?attr/actionBarSize"-->
+<!--            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+<!--        <androidx.viewpager.widget.ViewPager-->
+<!--            android:id="@+id/pager"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="fill_parent"-->
+<!--            android:layout_below="@id/tab_layout" />-->
+
+<!--    </RelativeLayout>-->
+
+    <!--    <View-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="2dp"-->
+    <!--        android:background="@drawable/bg_gradient_soft" />-->
+
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:scrollbars="none">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="0dp"-->
+    <!--                android:layout_margin="30dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:orientation="horizontal">-->
+
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="133.9dp"-->
+    <!--                    android:layout_height="133.9dp"-->
+    <!--                    android:scaleType="centerCrop"-->
+    <!--                    android:src="@drawable/profileone_img" />-->
+
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="0dp"-->
+    <!--                    android:layout_height="0dp"-->
+    <!--                    android:layout_weight="1" />-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:orientation="vertical">-->
+
+
+    <!--                    <customfonts.MyTextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="end"-->
+    <!--                        android:lineSpacingExtra="6.1sp"-->
+    <!--                        android:text="@string/miki_ito"-->
+    <!--                        android:textColor="#131314"-->
+    <!--                        android:textSize="26.9sp" />-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="end"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/digital_product_designer"-->
+    <!--                        android:textColor="#9b9ca3"-->
+    <!--                        android:textSize="13.4sp" />-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:layout_gravity="end"-->
+    <!--                        android:gravity="bottom">-->
+
+    <!--                        <ImageView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:src="@drawable/pone_btn" />-->
+
+    <!--                    </RelativeLayout>-->
+
+
+    <!--                </LinearLayout>-->
+
+
+    <!--            </LinearLayout>-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_margin="27dp"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <ImageView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:src="@drawable/baseline_location_on_black_24dp"/>-->
+
+    <!--                <customfonts.TextView_Lato_Regular-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:lineSpacingExtra="2.6sp"-->
+    <!--                    android:text="@string/address"-->
+    <!--                    android:textColor="#363028"-->
+    <!--                    android:textSize="13.4sp" />-->
+    <!--            </LinearLayout>-->
+
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_marginLeft="27dp"-->
+    <!--                android:layout_marginRight="27dp"-->
+    <!--                android:background="#e5e7e8" />-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_margin="27dp"-->
+    <!--                android:orientation="horizontal"-->
+    <!--                android:weightSum="3">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:orientation="vertical">-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="center_horizontal"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/_34"-->
+    <!--                        android:textColor="#131314"-->
+    <!--                        android:textSize="15.4sp" />-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="center_horizontal"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/books"-->
+    <!--                        android:textColor="#9b9ca3"-->
+    <!--                        android:textSize="13.4sp" />-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:orientation="vertical">-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="center_horizontal"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/_1256"-->
+    <!--                        android:textColor="#131314"-->
+    <!--                        android:textSize="15.4sp" />-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="center_horizontal"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/reviews"-->
+    <!--                        android:textColor="#9b9ca3"-->
+    <!--                        android:textSize="13.4sp" />-->
+
+    <!--                </LinearLayout>-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_weight="1"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:orientation="vertical">-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="center_horizontal"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/_8942"-->
+    <!--                        android:textColor="#131314"-->
+    <!--                        android:textSize="15.4sp" />-->
+
+    <!--                    <customfonts.TextView_Lato_Regular-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:gravity="center_horizontal"-->
+    <!--                        android:lineSpacingExtra="2.6sp"-->
+    <!--                        android:text="@string/requests"-->
+    <!--                        android:textColor="#9b9ca3"-->
+    <!--                        android:textSize="13.4sp" />-->
+
+    <!--                </LinearLayout>-->
+
+
+    <!--            </LinearLayout>-->
+
+    <!--            <View-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="1dp"-->
+    <!--                android:layout_marginLeft="27dp"-->
+    <!--                android:layout_marginRight="27dp"-->
+    <!--                android:background="#e5e7e8" />-->
+
+
+    <!--        </LinearLayout>-->
+
+    <!--    </androidx.core.widget.NestedScrollView>-->
+
+</LinearLayout>

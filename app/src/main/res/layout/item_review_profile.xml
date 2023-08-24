@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_review_profile"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:background="@drawable/book_sample" />-->
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/img_review_profile"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/book_loading"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_review_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuoi tre dang gia bao nhieu"
+                android:textColor="@color/title_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_tacgia_review_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Tac Gia"
+                android:textColor="#5D686B"
+                android:textSize="14sp" />
+
+            <RatingBar
+                android:id="@+id/rating_bar_review_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:rating="3.7"
+                android:stepSize="0.5"
+                android:progressTint="@color/ratingBarDark"
+                android:progressBackgroundTint="@color/title_color"
+                style="@style/Widget.AppCompat.RatingBar.Small" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

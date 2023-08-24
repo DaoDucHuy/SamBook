@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditReviewActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/edit_review_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/edit_review_review_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review_tab"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"/>
+
+        <RatingBar
+            android:id="@+id/edit_review_rating_bar_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:isIndicator="false"
+            android:numStars="5"
+            android:stepSize="0.1"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:theme="@style/RatingBarDark"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_review_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_review_linear_layout"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="@color/regular_text_color"
+        android:autofillHints=""
+        android:hint="@string/edit_review_hint"
+        android:background="@null"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
