@@ -9,13 +9,21 @@
         android:id="@+id/navigation_home"
         android:name="com.sam.sambook.ui.home.HomeFragment"
         android:label="@string/navigation_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_bookDetailActivity"
+            app:destination="@id/bookDetailActivity" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_search"
         android:name="com.sam.sambook.ui.search.SearchFragment"
         android:label="@string/navigation_search"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_search_to_bookDetailActivity"
+            app:destination="@id/bookDetailActivity" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_notification"
@@ -27,6 +35,28 @@
         android:id="@+id/navigation_profile"
         android:name="com.sam.sambook.ui.profile.ProfileFragment"
         android:label="@string/navigation_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_chatActivity"
+            app:destination="@id/chatActivity" />
+        <action
+            android:id="@+id/action_navigation_profile_to_editReviewActivity"
+            app:destination="@id/editReviewActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/chatActivity"
+        android:name="com.sam.sambook.activity.ChatActivity"
+        android:label="activity_chat"
+        tools:layout="@layout/activity_chat" />
+    <activity
+        android:id="@+id/editReviewActivity"
+        android:name="com.sam.sambook.activity.EditReviewActivity"
+        android:label="activity_edit_profile"
+        tools:layout="@layout/activity_edit_profile" />
+    <activity
+        android:id="@+id/bookDetailActivity"
+        android:name="com.sam.sambook.activity.BookDetailActivity"
+        android:label="activity_book_detail"
+        tools:layout="@layout/activity_book_detail" />
 
 </navigation>
