@@ -81,7 +81,7 @@ public class FragmentReview extends Fragment {
 
         for (int i = 0; i < bookReviewedModelList.size(); i++) {
             if (Objects.equals(_userModel.getUsername(), bookReviewedModelList.get(i).getUserReviewBook().getUsername())
-                && !Objects.equals(bookReviewedModelList.get(i).getReviewContent(), "")) {
+                    && !Objects.equals(bookReviewedModelList.get(i).getReviewContent(), "")) {
                 textViewEditReview.setText(R.string.edit_reviewed);
                 break;
             }
@@ -135,8 +135,7 @@ public class FragmentReview extends Fragment {
                         bookReviewedModelList.add(0, bookReviewedModel);
                         addingReview = true;
                     }
-                }
-                else {
+                } else {
                     UserModel userModel = new UserModel(_userModel.getUsername(), _userModel.getPassword(), _userModel.getName(), _userModel.getAddress());
                     BookReviewedModel bookReviewedModel = new BookReviewedModel(_bookModel.getName(), userModel, bookReviewedModelList.get(0).getReviewContent(), activeRatingBar.getRating());
                     bookReviewedModelList.remove(0);
@@ -165,8 +164,8 @@ public class FragmentReview extends Fragment {
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if(requestCode == REQUEST_CODE) {
-            if(resultCode == Activity.RESULT_OK) {
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == Activity.RESULT_OK) {
                 String reviewContent = data.getStringExtra("REVIEWCONTENT");
                 float ratingScore = data.getFloatExtra("RATINGSCORE", 0);
 //                Toast.makeText(getActivity().getApplicationContext(), reviewContent , Toast.LENGTH_SHORT).show();
@@ -187,14 +186,12 @@ public class FragmentReview extends Fragment {
                         bookReviewedModelList.add(0, bookReviewedModel);
                         textViewEditReview.setText(R.string.edit_reviewed);
                         addingReview = true;
-                    }
-                    else {
+                    } else {
                         bookReviewedModelList.add(0, bookReviewedModel);
                         textViewEditReview.setText(R.string.edit_reviewed);
                         addingReview = true;
                     }
-                }
-                else {
+                } else {
                     bookReviewedModelList.remove(0);
                     bookReviewedModelList.add(0, bookReviewedModel);
                     textViewEditReview.setText(R.string.edit_reviewed);
@@ -227,7 +224,7 @@ public class FragmentReview extends Fragment {
             }
         });
     }
-              
+
 //    private void _getUserLocal() {
 //        try {
 //            InputStream is = getActivity().getApplicationContext().openFileInput("USERSAMBOOK.txt");
@@ -301,6 +298,7 @@ public class FragmentReview extends Fragment {
             for (int i = 0; i < reviewedBookModelList.size(); i++) {
                 if (reviewedBookModelList.get(i).getName().equals(_bookModel.getName())) {
                     indexLocation = i;
+                    //Huy test merge
                     break;
                 }
             }
